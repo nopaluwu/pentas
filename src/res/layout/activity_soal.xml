@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:theme="resourceId:0x7f0c010c" android:scrollbarAlwaysDrawVerticalTrack="true" android:orientation="1" android:background="resourceId:0x106000b" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:id="false" android:background="143441" android:padding="16dp" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="120dp" android:layout_weight="{4:1065353216}">
+			<LinearLayout android:orientation="1" android:layout_width="277dp" android:layout_height="-1" android:layout_marginRight="8dp" android:layout_weight="{4:1065353216}">
+				<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="resourceId:0x106000b" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Mata Pelajaran :" />
+				<TextView android:textSize="14sp" android:textColor="resourceId:0x106000b" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+				<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="16dp" android:layout_weight="{4:1065353216}">
+					<LinearLayout android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+						<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="resourceId:0x106000b" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Soal No :" />
+						<TextView android:textSize="36sp" android:textStyle="0x1" android:textColor="resourceId:0x106000b" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="0" />
+					</LinearLayout>
+					<LinearLayout android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_weight="{4:1073741824}">
+						<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="resourceId:0x106000b" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Sisa Waktu :" />
+						<TextView android:textSize="36sp" android:textStyle="0x1" android:textColor="resourceId:0x106000b" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="00:00" />
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:gravity="0x5" android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-2">
+				<ImageButton android:id="false" android:padding="10dp" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable/check.png" android:scaleType="6" android:backgroundTint="ed553b" />
+				<ImageButton android:id="false" android:padding="10dp" android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable/list.png" android:scaleType="6" android:backgroundTint="f2b134" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="60dp" android:layout_below="false">
+		<ScrollView android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:orientation="1" android:id="false" android:padding="16dp" android:layout_width="-1" android:layout_height="-1">
+				<TableLayout android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+					<TableRow android:layout_width="-1" android:layout_height="-1">
+						<WebView android:id="false" android:padding="6dp" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+					</TableRow>
+				</TableLayout>
+				<TextView android:textSize="14sp" android:textColor="resourceId:0x1060013" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="24dp" android:text="Jawaban" />
+				<TableLayout android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="12dp" android:layout_weight="{4:0}">
+					<TableRow android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:0}">
+						<RadioButton android:textSize="18sp" android:gravity="0x10" android:id="false" android:duplicateParentState="false" android:layout_width="-2" android:layout_height="-2" android:checked="false" android:cursorVisible="false" android:layout_weight="{4:0}" android:lineSpacingExtra="8sp" />
+						<WebView android:id="false" android:padding="6dp" android:layout_width="-1" android:layout_height="-2" android:layout_margin="6dp" android:layout_weight="{4:1065353216}" />
+					</TableRow>
+					<TableRow android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:0}">
+						<RadioButton android:textSize="18sp" android:gravity="0x10" android:id="false" android:duplicateParentState="false" android:layout_width="-2" android:layout_height="-2" android:checked="false" android:cursorVisible="false" android:layout_weight="{4:0}" android:lineSpacingExtra="8sp" />
+						<WebView android:id="false" android:padding="6dp" android:layout_width="-1" android:layout_height="-2" android:layout_margin="6dp" android:layout_weight="{4:1065353216}" />
+					</TableRow>
+					<TableRow android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:0}">
+						<RadioButton android:textSize="18sp" android:gravity="0x10" android:id="false" android:duplicateParentState="false" android:layout_width="-2" android:layout_height="-2" android:checked="false" android:cursorVisible="false" android:layout_weight="{4:0}" android:lineSpacingExtra="8sp" />
+						<WebView android:id="false" android:padding="6dp" android:layout_width="-1" android:layout_height="-2" android:layout_margin="6dp" android:layout_weight="{4:1065353216}" />
+					</TableRow>
+					<TableRow android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:0}">
+						<RadioButton android:textSize="18sp" android:gravity="0x10" android:id="false" android:duplicateParentState="false" android:layout_width="-2" android:layout_height="-2" android:checked="false" android:cursorVisible="false" android:layout_weight="{4:0}" android:lineSpacingExtra="8sp" />
+						<WebView android:id="false" android:padding="6dp" android:layout_width="-1" android:layout_height="-2" android:layout_margin="6dp" android:layout_weight="{4:1065353216}" />
+					</TableRow>
+					<TableRow android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:0}">
+						<RadioButton android:textSize="18sp" android:gravity="0x10" android:id="false" android:duplicateParentState="false" android:layout_width="-2" android:layout_height="-2" android:checked="false" android:cursorVisible="false" android:layout_weight="{4:0}" android:lineSpacingExtra="8sp" />
+						<WebView android:id="false" android:padding="6dp" android:layout_width="-1" android:layout_height="-2" android:layout_margin="6dp" android:layout_weight="{4:1065353216}" />
+					</TableRow>
+				</TableLayout>
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+	<LinearLayout android:gravity="0x50" android:orientation="1" android:id="false" android:background="resourceId:0x106000b" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+		<Button android:textSize="16sp" android:textStyle="0x1" android:textColor="resourceId:0x106000b" android:layout_gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="60dp" android:text="Berikutnya" android:backgroundTint="ed553b" />
+	</LinearLayout>
+</RelativeLayout>

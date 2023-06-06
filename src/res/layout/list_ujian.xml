@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:padding="16dp" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="16dp" android:backgroundTint="0574b">
+	<TextView android:textSize="12sp" android:textColor="resourceId:0x1060013" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Tipe Ujian" />
+	<TextView android:textSize="16sp" android:textColor="resourceId:0x106000c" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="-" />
+	<TextView android:textSize="12sp" android:textColor="resourceId:0x1060013" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Mata Pelajaran" />
+	<TextView android:textSize="16sp" android:textColor="resourceId:0x106000c" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="-" />
+	<TextView android:textSize="12sp" android:textColor="resourceId:0x1060013" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Tanggal Ujian" />
+	<TextView android:textSize="16sp" android:textColor="resourceId:0x106000c" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="-" />
+	<TextView android:textSize="12sp" android:textColor="resourceId:0x1060013" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Waktu Ujian" />
+	<TextView android:textSize="16sp" android:textColor="resourceId:0x106000c" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="-" />
+	<TextView android:textSize="12sp" android:textColor="resourceId:0x1060013" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Urutan Ke" />
+	<TextView android:textSize="16sp" android:textColor="resourceId:0x106000c" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="-" />
+	<TextView android:textSize="12sp" android:textColor="resourceId:0x1060013" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Nilai" />
+	<TextView android:textSize="16sp" android:textColor="resourceId:0x106000c" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="-" />
+	<Button android:textColor="resourceId:0x106000b" android:layout_gravity="0x5" android:id="false" android:paddingLeft="32dp" android:paddingRight="32dp" android:layout_width="-2" android:layout_height="-2" android:text="Kerjakan Ujian" android:backgroundTint="0908e" />
+</LinearLayout>

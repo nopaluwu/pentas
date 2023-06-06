@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="4" android:versionName="4.0" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="id.hudaazzuhri.pentas" platformBuildVersionCode="30" platformBuildVersionName="11">
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="30" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<application android:theme="resourceId:0x7f0c010c" android:label="PenTAS" android:icon="res/mipmap-xxxhdpi-v4/ic_icon_pentas.png" android:allowBackup="true" android:supportsRtl="true" android:resizeableActivity="false" android:networkSecurityConfig="res/xml/network_security_config.xml" android:roundIcon="res/mipmap-xxxhdpi-v4/ic_icon_pentas_round.png" android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+		<activity android:name="id.hudaazzuhri.pentas.SplashActivity" android:noHistory="true">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="id.hudaazzuhri.pentas.LoginActivity" android:noHistory="true" />
+		<activity android:name="id.hudaazzuhri.pentas.MainActivity" android:noHistory="true" />
+		<activity android:name="id.hudaazzuhri.pentas.SoalActivity" />
+		<activity android:theme="resourceId:0x7f0c0006" android:name="id.hudaazzuhri.pentas.NomorActivity" android:noHistory="true" />
+		<meta-data android:name="com.android.vending.derived.apk.id" android:value="1" />
+	</application>
+</manifest>

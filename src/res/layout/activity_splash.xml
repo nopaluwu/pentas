@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="0x11" android:layout_gravity="0x11" android:orientation="1" android:background="143441" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:id="false" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="-1" android:layout_height="-2" android:src="res/drawable/logo_sekolah.png" />
+	<ImageView android:id="false" android:paddingLeft="60dp" android:paddingRight="60dp" android:layout_width="-1" android:layout_height="-2" android:src="res/drawable/logo_pentas_dark.png" />
+</LinearLayout>

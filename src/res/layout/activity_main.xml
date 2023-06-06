@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:theme="resourceId:0x7f0c010c" android:orientation="1" android:background="resourceId:0x106000b" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="0" android:id="false" android:background="143441" android:padding="16dp" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_marginStart="0dp" android:layout_alignParentStart="true">
+		<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="16dp" android:layout_weight="{4:1065353216}">
+			<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="resourceId:0x106000b" android:id="false" android:paddingBottom="2dp" android:layout_width="-1" android:layout_height="-2" android:text="Nama Siswa" />
+			<TextView android:textSize="12sp" android:textColor="resourceId:0x106000b" android:id="false" android:paddingTop="1dp" android:paddingBottom="1dp" android:layout_width="-1" android:layout_height="-2" android:text="NISN" />
+			<TextView android:textSize="12sp" android:textColor="resourceId:0x106000b" android:id="false" android:paddingTop="1dp" android:paddingBottom="1dp" android:layout_width="-1" android:layout_height="-2" android:text="Kelas" />
+			<TextView android:textSize="12sp" android:textColor="resourceId:0x106000b" android:id="false" android:paddingTop="1dp" android:paddingBottom="1dp" android:layout_width="-1" android:layout_height="-2" android:text="Agama" />
+			<TableRow android:layout_width="-1" android:layout_height="-1" />
+		</LinearLayout>
+		<LinearLayout android:gravity="0x55" android:orientation="0" android:layout_width="-2" android:layout_height="-1" android:layout_weight="{4:0}">
+			<ImageButton android:id="false" android:padding="10dp" android:visibility="1" android:layout_width="45dp" android:layout_height="45dp" android:src="res/drawable/help.png" android:scaleType="6" android:onClick="openTutorial" android:backgroundTint="c4b69a" />
+			<ImageButton android:id="false" android:padding="10dp" android:layout_width="45dp" android:layout_height="45dp" android:src="res/drawable/refresh.png" android:scaleType="6" android:onClick="refreshActivity" android:backgroundTint="ed553b" />
+			<ImageButton android:id="false" android:padding="10dp" android:layout_width="45dp" android:layout_height="45dp" android:src="res/drawable/signout.png" android:scaleType="6" android:onClick="logout" android:backgroundTint="ed553b" />
+		</LinearLayout>
+	</LinearLayout>
+	<ListView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_below="false" />
+</RelativeLayout>

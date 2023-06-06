@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:theme="resourceId:0x7f0c010c" android:orientation="1" android:background="143441" android:layout_width="-1" android:layout_height="-1" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+		<ImageView android:id="false" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="24dp" app:srcCompat="res/drawable/logo_sekolah.png" />
+		<ImageView android:id="false" android:layout_width="-1" android:layout_height="130dp" android:src="res/drawable/logo_pentas_dark.png" />
+		<EditText android:textColor="resourceId:0x106000b" android:textColorHint="resourceId:0x106000b" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="32dp" android:layout_marginTop="32dp" android:layout_marginRight="32dp" android:hint="NISN" android:ems="10" android:selectAllOnFocus="false" android:inputType="0x2" android:backgroundTint="resourceId:0x106000b" />
+		<EditText android:textColor="resourceId:0x106000b" android:textColorHint="resourceId:0x106000b" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="32dp" android:layout_marginTop="12dp" android:layout_marginRight="32dp" android:hint="Nama Lengkap" android:ems="10" android:selectAllOnFocus="false" android:inputType="0x1" android:backgroundTint="resourceId:0x106000b" />
+		<Button android:textSize="18sp" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:paddingLeft="72dp" android:paddingTop="16dp" android:paddingRight="72dp" android:paddingBottom="16dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="18dp" android:text="Login" android:textAllCaps="true" android:backgroundTint="c4b69a" />
+		<TextView android:textSize="12sp" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="Version" />
+	</LinearLayout>
+</ScrollView>
